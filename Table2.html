@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacing and Padding</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding vs Spacing Example</title>
+    <style>
+        /* Table with padding inside cells */
+        .padding-table {
+            border-collapse: collapse;
+            width: 45%;
+            margin-bottom: 20px;
+        }
+        .padding-table th, .padding-table td {
+            border: 2px solid black;
+            padding: 20px; /* Padding inside each cell */
+            text-align: center;
+        }
+
+        /* Table with spacing between cells */
+        .spacing-table {
+            border-collapse: separate;
+          border-spacing: 200px;
+            width: 45%;
+        }
+        .spacing-table th, .spacing-table td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Table with Padding (Inner Space in Cells)</h2>
+    <table class="padding-table">
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+        </tr>
+        <tr>
+            <td>Cell 1,1</td>
+            <td>Cell 1,2</td>
+        </tr>
+        <tr>
+            <td>Cell 2,1</td>
+            <td>Cell 2,2</td>
+        </tr>
+    </table>
+
+    <h2>Table with Spacing (Space Between Cells)</h2>
+    <table class="spacing-table" style="">
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+        </tr>
+        <tr>
+            <td>Cell 1,1</td>
+            <td>Cell 1,2</td>
+        </tr>
+        <tr>
+            <td>Cell 2,1</td>
+            <td>Cell 2,2</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+</body>
+</html>
